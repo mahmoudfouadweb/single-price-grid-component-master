@@ -21,117 +21,17 @@ body {
 .container {
   max-width: 144rem;
   height: 100vh;
-  margin: 0 auto;
-  padding: 3rem 40rem;
-}
-
-.card {
-  width: 28rem;
-  background-color: hsl(216, 50%, 16%);
-  padding: 1.6rem;
-  border-radius: 11px;
-  /* align-items: center; */
   justify-content: center;
-  margin: 0 auto;
-}
-
-.main-img {
-  display: block;
-  border-radius: 11px;
-  margin-bottom: 1.6rem;
-  width: 25rem;
-  align-self: center;
-  transition: all 0.3s;
-}
-
-.main-img:hover {
-  cursor: pointer;
-  background: turquoise, url(./images/icon-view.svg);
-  background-position: center;
-}
-
-.heading-card {
-  color: hsl(0, 0%, 100%);
-  font-size: 1.4rem;
-  font-weight: 600;
-  letter-spacing: 1px;
-  margin-bottom: 1.6rem;
-  transition: all 0.3s;
-}
-
-.heading-card:hover,
-.user span:hover {
-  color: hsl(178, 100%, 50%);
-  cursor: pointer;
-}
-
-.text-card {
-  color: hsla(215, 52%, 70%, 0.7);
-  font-size: 1.3rem;
-  font-weight: 400;
-  line-height: 1.7;
-  margin-bottom: 2.4rem;
-}
-
-.details-card-box {
-  justify-content: space-between;
-  margin-bottom: 2.4rem;
-}
-
-.ethereum-box,
-.date-box {
-  gap: 0.5rem;
   align-items: center;
 }
 
-.ethereum-icon {
-  width: 1.2rem;
-}
-
-.total {
-  color: hsl(178, 100%, 50%);
-  font-size: 1.4rem;
-  font-weight: 600;
-  letter-spacing: 1px;
-}
-
-.time {
-  width: 2rem;
-}
-
-.date {
-  font-size: 1.3rem;
-  font-weight: 400;
-  color: hsl(215, 51%, 70%);
-}
-
-.user-details-box {
-  border-top: 1px solid hsla(215, 52%, 70%, 0.431);
-  padding-top: 2rem;
-  align-items: center;
-  gap: 1.4rem;
-}
-
-.user-img {
-  width: 4.8rem;
-  border: 2px solid hsl(0, 0%, 100%);
-  border-radius: 50%;
-}
-
-.user {
-  font-size: 1.4rem;
-  font-weight: 400;
-  color: hsl(215, 51%, 70%);
-}
-
-.user span {
-  color: hsl(0, 0%, 100%);
-  margin-left: 0.3rem;
-  transition: all 0.3s;
-}
 /**************************/
 /* GENERAL  COMPONENT STYLES */
 /**************************/
+.grid {
+  display: grid;
+}
+
 .flex {
   display: flex;
 }
