@@ -20,16 +20,17 @@ body {
   justify-content: center;
   align-items: center;
   padding: 2.4rem;
+  height: 100vh;
 }
 .container {
   max-width: 144rem;
-  height: 100vh;
 }
 
 .price-heading-box,
 .subscription-box,
 .whyus-box {
   padding: 2.4rem;
+  /* height: fit-content; */
 }
 .price-heading-box {
   background-color: hsl(204, 43%, 93%);
@@ -49,23 +50,62 @@ body {
 .price-heading-secondary {
   font-size: 1.4rem;
   font-weight: 400;
-  color: hsl(71, 62%, 52%);
-  margin-bottom: 1.6rem;
+  color: hsl(71, 60%, 54%);
+  margin-bottom: 1.4rem;
 }
 
 .price-heading-text {
   font-size: 1.1rem;
-  font-weight: 400;
+  font-weight: 300;
+  line-height: 1.7;
+  color: hsl(218, 22%, 67%);
 }
 
 .subscription-box {
   background-color: hsl(179, 62%, 43%);
+  color: hsl(204, 43%, 93%);
   grid-column: 1/2;
+}
+
+.subscription-heading {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 1.4rem;
+}
+
+.subscription-plan {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.subscription-plan span {
+  font-size: 1rem;
+  font-weight: 300rem;
+  color: hsla(203, 44%, 93%, 0.6);
+}
+
+.subscription-text {
+  font-size: 1rem;
+  font-weight: 300;
+  color: hsla(203, 44%, 93%, 0.907);
+  margin-bottom: 1rem;
+}
+
+.subscription-btn {
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: hsl(71, 73%, 54%);
+  padding: 1.2rem 6.4rem;
+  border-radius: 11px;
+  box-shadow: 2px 6px 20px rgb(0 0 0 / 20%);
 }
 
 .whyus-box {
   background-color: hsl(179, 41%, 58%);
   grid-column: 2/-1;
+  color: ;
 }
 /**************************/
 /* GENERAL  COMPONENT STYLES */
@@ -77,6 +117,10 @@ body {
 .grid-2-col {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
+}
+
+.row-2 {
+  grid-row: 2;
 }
 
 .flex {
