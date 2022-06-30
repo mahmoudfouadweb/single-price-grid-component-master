@@ -23,8 +23,10 @@
     <title>Frontend Mentor | Single Price Grid Component</title>
   </head>
   <body>
-    <secsion class="price-section">
-      <div class="container flex">
+    <section class="price-section flex">
+      <div class="container grid grid-2-col">
+        <!-- price-heading-box -->
+
         <div class="price-heading-box">
           <h1 class="heading-primary">Join our community</h1>
           <h3 class="heading-secondary">
@@ -36,11 +38,29 @@
             their skills.
           </p>
         </div>
+
+        <!-- subscription-box -->
+
+        <div class="subscription-box">
+          <div class="subscription-heading">Monthly Subscription</div>
+          <p class="subscription-plan">&dollar;29 <span>per month</span></p>
+          <div class="subscription-text">
+            Full access for less than &dollar;1 a day
+          </div>
+          <div class="subscription-btn">Sign Up</div>
+        </div>
+
+        <!-- whyus-box -->
+
+        <div class="whyus-box">
+          <div class="whyus-heading">Why Us</div>
+          <p class="whyus-text">
+            Tutorials by industry experts Peer &amp; expert code review Coding
+            exercises Access to our GitHub repos Community forum Flashcard decks
+            New videos every week
+          </p>
+        </div>
       </div>
-    </secsion>
-    Monthly Subscription &dollar;29 per month Full access for less than
-    &dollar;1 a day Sign Up Why Us Tutorials by industry experts Peer &amp;
-    expert code review Coding exercises Access to our GitHub repos Community
-    forum Flashcard decks New videos every week
+    </section>
   </body>
 </html>
